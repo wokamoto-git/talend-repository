@@ -19,7 +19,7 @@
     <bundle.config.import.package>@BundleConfigImportPackage@</bundle.config.import.package>
     <lib.path>${resources.path}/lib</lib.path>
     <talend.job.folder></talend.job.folder>
-    <talend.job.context>Default</talend.job.context>
+    <talend.job.context>Windows</talend.job.context>
     <talend.job.path>testproject</talend.job.path>
     <project.distribution-management.repository.id>${project.distributionManagement.repository.id}</project.distribution-management.repository.id>
     <resources.path>${basedir}/src/main/resources</resources.path>
