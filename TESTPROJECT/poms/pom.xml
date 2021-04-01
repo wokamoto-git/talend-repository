@@ -14,6 +14,7 @@
     <module>jobs/process/test_job01_0.1</module>
     <module>jobs/process/test_service01_0.1</module>
     <module>jobs/process/Misumi/datahub/b_kafka_get_work4_msk_0.1</module>
+    <module>jobs/process/Misumi/datahub/a_kafka_test01_msk_0.1</module>
   </modules>
   <properties>
     <talend.project.name>TESTPROJECT</talend.project.name>
