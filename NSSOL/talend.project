@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_vyL3UZdbEeu8VOpuG1nRHQ" label="NSSOL" language="java" technicalLabel="NSSOL" author="_vyL3UpdbEeu8VOpuG1nRHQ" productVersion="Talend Cloud Data Management Platform-7.3.1.20200219_1130" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/wokamoto-git/talend-repository&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" bigData="false">
+    <migrationTask xmi:id="_v6qd4JdbEeu8VOpuG1nRHQ" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_vyL3UpdbEeu8VOpuG1nRHQ" login="tanakatanaka1@trial05286.ap.talend.com" firstName="tanaka" lastName="tanaka" type="DQ"/>
+</xmi:XMI>
