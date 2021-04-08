@@ -2,7 +2,7 @@
   <context confirmationNeeded="false" name="Prod">
     <contextParameter comment="" name="projectName" prompt="projectName?" promptNeeded="false" repositoryContextId="_ynvE8JdXEeutHeP0AiBlNw" type="id_String" value="tanakaproject"/>
     <contextParameter comment="" name="tcToken" prompt="tcToken?" promptNeeded="false" repositoryContextId="_ynvE8JdXEeutHeP0AiBlNw" type="id_String" value=""/>
-    <contextParameter comment="TDCのパスワード" name="tdcPassword" prompt="tdcPassword?" promptNeeded="false" repositoryContextId="_ynvE8JdXEeutHeP0AiBlNw" type="id_Password" value="enc:system.encryption.key.v1:iLraPRFxUfVKYlWvYWZLXQSu4OjlDKxcZkRa+qVGnNLKeKzzSwXW/Pc="/>
+    <contextParameter comment="TDCのパスワード" name="tdcPassword" prompt="tdcPassword?" promptNeeded="false" repositoryContextId="_ynvE8JdXEeutHeP0AiBlNw" type="id_Password" value="enc:system.encryption.key.v1:lUTroPr5bx3Lejr/eJXeQ3WNY+EAfqZ2yKQHaVurZj/aRao6adKxZCw="/>
     <contextParameter comment="" name="tdcRootObjectId" prompt="tdcRootObjectId?" promptNeeded="false" repositoryContextId="_ynvE8JdXEeutHeP0AiBlNw" type="id_String" value=""/>
     <contextParameter comment="" name="tdcTargetObjectPath" prompt="tdcTargetObjectPath?" promptNeeded="false" repositoryContextId="_ynvE8JdXEeutHeP0AiBlNw" type="id_String" value=""/>
     <contextParameter comment="取得対象とするモデルのオブジェクトID" name="tdcTargetSchema" prompt="tdcTargetSchema?" promptNeeded="false" repositoryContextId="_ynvE8JdXEeutHeP0AiBlNw" type="id_String" value="AAAABwAAU_vKkUQy1RIpheNjpvMyZJ8YrA"/>
@@ -12,11 +12,12 @@
     <contextParameter comment="" name="tdpId" prompt="tdpId?" promptNeeded="false" repositoryContextId="_ynvE8JdXEeutHeP0AiBlNw" type="id_String" value=""/>
     <contextParameter comment="" name="tdpURL" prompt="tdpURL?" promptNeeded="false" repositoryContextId="_ynvE8JdXEeutHeP0AiBlNw" type="id_String" value=""/>
     <contextParameter comment="中間ファイルの出力先ディレクトリ" name="workingDirectoryPath" prompt="workingDirectoryPath?" promptNeeded="false" repositoryContextId="_ynvE8JdXEeutHeP0AiBlNw" type="id_Directory" value="C:/Users/tfurukawa/Desktop/Temp/"/>
+    <contextParameter comment="" name="datasetName" prompt="datasetName?" promptNeeded="false" type="id_String" value="customer"/>
   </context>
   <context confirmationNeeded="false" name="Dev">
     <contextParameter comment="" name="projectName" prompt="projectName?" promptNeeded="false" repositoryContextId="_ynvE8JdXEeutHeP0AiBlNw" type="id_String" value="tanakaproject"/>
     <contextParameter comment="" name="tcToken" prompt="tcToken?" promptNeeded="false" repositoryContextId="_ynvE8JdXEeutHeP0AiBlNw" type="id_String" value="pHjoIJwGQj6xTiSvnIhzwoUm2KW6ItBLgSEt9_c7lAZ0k9mWXClVuqJOPVAqmog8"/>
-    <contextParameter comment="TDCのパスワード" name="tdcPassword" prompt="tdcPassword?" promptNeeded="false" repositoryContextId="_ynvE8JdXEeutHeP0AiBlNw" type="id_Password" value="enc:system.encryption.key.v1:MSVnejfRvRPJA4lqZvgzkOh+5mlFdeGGeX/GMS/PUAPSAitBRIK69Ng="/>
+    <contextParameter comment="TDCのパスワード" name="tdcPassword" prompt="tdcPassword?" promptNeeded="false" repositoryContextId="_ynvE8JdXEeutHeP0AiBlNw" type="id_Password" value="enc:system.encryption.key.v1:8iKRniZbYHGStxpwIi542aGj0t8HjVQ/7JIUzyd5qlxgAEJF6FYSjLs="/>
     <contextParameter comment="" name="tdcRootObjectId" prompt="tdcRootObjectId?" promptNeeded="false" repositoryContextId="_ynvE8JdXEeutHeP0AiBlNw" type="id_String" value="AAAhiAAAU_vKkUQy1RIpheNjpvMyZJ8YrA"/>
     <contextParameter comment="" name="tdcTargetObjectPath" prompt="tdcTargetObjectPath?" promptNeeded="false" repositoryContextId="_ynvE8JdXEeutHeP0AiBlNw" type="id_String" value="MySQL(関東)/bs202004/dimension"/>
     <contextParameter comment="取得対象とするモデルのオブジェクトID" name="tdcTargetSchema" prompt="tdcTargetSchema?" promptNeeded="false" repositoryContextId="_ynvE8JdXEeutHeP0AiBlNw" type="id_String" value="AAAABwAAU_vKkUQy1RIpheNjpvMyZJ8YrA"/>
@@ -26,6 +27,7 @@
     <contextParameter comment="" name="tdpId" prompt="tdpId?" promptNeeded="false" repositoryContextId="_ynvE8JdXEeutHeP0AiBlNw" type="id_String" value="12345"/>
     <contextParameter comment="" name="tdpURL" prompt="tdpURL?" promptNeeded="false" repositoryContextId="_ynvE8JdXEeutHeP0AiBlNw" type="id_String" value="https://tdp.ap.cloud.talend.com"/>
     <contextParameter comment="中間ファイルの出力先ディレクトリ" name="workingDirectoryPath" prompt="workingDirectoryPath?" promptNeeded="false" repositoryContextId="_ynvE8JdXEeutHeP0AiBlNw" type="id_Directory" value="C:/Users/tfurukawa/Desktop/Temp/"/>
+    <contextParameter comment="" name="datasetName" prompt="datasetName?" promptNeeded="false" type="id_String" value="customer"/>
   </context>
   <parameters>
     <elementParameter field="CHECK" name="LOG4J_RUN_ACTIVATE" show="false" value="true"/>
@@ -71,7 +73,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:YMHIyPmH+IafbCpqT7JjFBBdcDCNi+99XGFWDWaJ"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:L1kVhBjRH9NDjTPi4MsN2LvxY5XBdj0A1crea9Oa"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -106,7 +108,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:fLJvvylgAVp9GDH1JodV9Xcn5F6IegRTtc4q7qar"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:aNF/rZsHYZmN7EbMeyZcDKhx7aESAn8q6EY6Li+N"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -156,7 +158,7 @@
     <elementParameter field="CHECK" name="NEED_AUTH" value="true"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" value="OAUTH2_BEARER"/>
     <elementParameter field="TEXT" name="AUTH_USERNAME" show="false" value="&quot;tanakatanaka2@digdig.org&quot;"/>
-    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" show="false" value="enc:system.encryption.key.v1:SIeAWqPU7bvLL08VWaGPiZNshnEc+RnMIMdS9S5+4oYs2SPjsQrv"/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" show="false" value="enc:system.encryption.key.v1:vKv+KMETHXMZpUMa+e9N8w9hHN6tk62pUqPXYxkAjufH9/rKBiWr"/>
     <elementParameter field="TEXT" name="AUTH_BEARER_TOKEN" value="&quot;N1Hi0zFKRxie79flQEBmNubF8okwmsQgP1Eyhb93Slz8MKgtRVKQQXXdN0_PZQRP&quot;"/>
     <elementParameter field="CHECK" name="NEED_AUTHORIZATION" show="false" value="false"/>
     <elementParameter field="TEXT" name="ROLE" show="false" value="&quot;&quot;"/>
@@ -184,7 +186,7 @@
     <elementParameter field="TEXT" name="PROXY_HOST" show="false" value="&quot;61.163.92.4&quot;"/>
     <elementParameter field="TEXT" name="PROXY_PORT" show="false" value="8080"/>
     <elementParameter field="TEXT" name="PROXY_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:e48B7KlmhaXKe1LAW36/XMeFRPco2KOH8e7w4e2V"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:hUq8dFnIf/tD89LJkGBhhcmqC02Ea/lcWYte/P+Q"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tRESTClient_1">
       <column defaultValue="" key="false" length="0" name="body" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Document" usefulColumn="true"/>
@@ -323,7 +325,7 @@
     <elementParameter field="CHECK" name="NEED_AUTH" value="true"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" value="OAUTH2_BEARER"/>
     <elementParameter field="TEXT" name="AUTH_USERNAME" show="false" value="&quot;tanakatanaka2@digdig.org&quot;"/>
-    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" show="false" value="enc:system.encryption.key.v1:vI9vgFgIZDYguxxqyx2aE7l1TYmAV1EEDaJq6FelNs+U+Ck7m4De"/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" show="false" value="enc:system.encryption.key.v1:PX3hsCXlgHKYKTyWSb7A6B1d0U1spwc5x5emLF48sj2oNumm2cmL"/>
     <elementParameter field="TEXT" name="AUTH_BEARER_TOKEN" value="&quot;N1Hi0zFKRxie79flQEBmNubF8okwmsQgP1Eyhb93Slz8MKgtRVKQQXXdN0_PZQRP&quot;"/>
     <elementParameter field="CHECK" name="NEED_AUTHORIZATION" show="false" value="false"/>
     <elementParameter field="TEXT" name="ROLE" show="false" value="&quot;&quot;"/>
@@ -351,7 +353,7 @@
     <elementParameter field="TEXT" name="PROXY_HOST" show="false" value="&quot;61.163.92.4&quot;"/>
     <elementParameter field="TEXT" name="PROXY_PORT" show="false" value="8080"/>
     <elementParameter field="TEXT" name="PROXY_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:RM0yd80gSfeirNbXc/5TmYXEvs9J29ESyCpXZaAx"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:DuuXXfTlKiK3+CNYadXGc6AVuibAN12J9Wqy8sO1"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tRESTClient_2">
       <column defaultValue="" key="false" length="0" name="body" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Document" usefulColumn="true"/>
@@ -452,7 +454,7 @@
     <elementParameter field="CHECK" name="NEED_AUTH" value="true"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" value="OAUTH2_BEARER"/>
     <elementParameter field="TEXT" name="AUTH_USERNAME" show="false" value="&quot;username&quot;"/>
-    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" show="false" value="enc:system.encryption.key.v1://d6Upb7U58Y5gs/cVt/HB87Ke8af8/uI4T1NakFF6/f6E3SEKI="/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" show="false" value="enc:system.encryption.key.v1:7a3goNydEMKO9RwiVe4/06AeTxyJddVNtqCizsOBEyPIro+RrNc="/>
     <elementParameter field="TEXT" name="AUTH_BEARER_TOKEN" value="&quot;N1Hi0zFKRxie79flQEBmNubF8okwmsQgP1Eyhb93Slz8MKgtRVKQQXXdN0_PZQRP&quot;"/>
     <elementParameter field="CHECK" name="NEED_AUTHORIZATION" show="false" value="false"/>
     <elementParameter field="TEXT" name="ROLE" show="false" value="&quot;&quot;"/>
@@ -480,7 +482,7 @@
     <elementParameter field="TEXT" name="PROXY_HOST" show="false" value="&quot;61.163.92.4&quot;"/>
     <elementParameter field="TEXT" name="PROXY_PORT" show="false" value="8080"/>
     <elementParameter field="TEXT" name="PROXY_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:k4ZerRi/SN/yxK6tGqwFMsONhojrWoWO+tXQCgVh"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:oFVVj96r9LtSJfILrHGbGOTramgvs8YvRuOnwnCo"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tRESTClient_3">
       <column defaultValue="" key="false" length="0" name="body" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Document" usefulColumn="true"/>
@@ -579,13 +581,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_e01a95f2-da2b-4637-8ce5-4825b1f07cd1"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>7Ex2DpOKi2SSpmNPcMxwaXY5nl/HsGv4bEZUTFdVkDHnZBaNyZLWoYAtMsb1MpJy59BuI8Sh/qn6&#13;
-ojlspoH6tw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_162362eb-3e0d-4033-985e-d7b1ecc36838"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>2IbbQsi8KXk5eOk3XXihHglDlxoFWoTxi+E0sy/5lygAwPZbPipzptg9ynVmar+KnQdpmMSsN6m6&#13;
-LyzW5CNmBQ==</DigestValue></Reference></SignedInfo><SignatureValue>WSs667kb8Z+K83Nfnc5ntX+OLX2sPIStFitKssnA8R1GLGywvB6dGCBy3xbWiJSRjrAwSsHNVxwk&#13;
-cmDCWEOK9VL+gyXrr1HZ/EDcioggIfi8/OZAd/juy2wluJa5ufYusvm8LGen4+4hZxTOVW5rXJX0&#13;
-dH//yilD30KlG9L5Vtx6plZ6FsvVUu2/8ZI6QxBUT9HrQhq9e8Wc2j3NXRqQsSItTrO/1skxEGM/&#13;
-vDieo1zsBS6A5sS4iQEv1DC31gv+2AKQFNafsDr+OXFUkM7LUUYfnvIYtUhGOhmu3IxyexvYfAgS&#13;
-gl24H1ejmOtJW+nKrlElqTsongVpHXDA8C51JA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_75766014-321b-4be4-9590-7f6d0b81170b"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>rzMIKuTb3nZ3JFfJm6LwQ8AaqX9mGIasSOO/5JIhkLUyda71wyLjft0JNeA0xDMnnaoKHMkl3oki&#13;
+QGnLgLgPkA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_960a9004-3b6b-4bcc-809f-de85afe1f3ee"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>33XXmiHH8dIPm2emwe0+M6XfYXtUeYYKU6nkqk5AkznVt/1B4FNFG44qclyw7w74VAr0LYrUkIJm&#13;
+XFQ1X7nwMQ==</DigestValue></Reference></SignedInfo><SignatureValue>ERauyrvyjE3UuFfmDuT8P4H0MS8Stgq6t4PlELncGU6nGReMKrvDgh8DBotQcYHNwgzM1TDrzQKk&#13;
+2KS//h6DJW1Qy/wX/4sb1lRrDQwMV/Ec8pHT6Ye7LUHduFlAEUT6a8kkJi6X9ifRPrizGL8w7q65&#13;
+gq4GsYuMNVxYMIrrVXJEM/8UCRvZaGiWx/GJUqB+kRm2IgCG/WJW84jofcf1/PO1GOwzjx0FodOQ&#13;
++cQ1tblPHg/atU62taw2OQR1MOtQ70iliZvWI1L2Wda6hlpZjS+XzQ7sE5Cc42ttmn+rsXrjD37i&#13;
+HnrcTFNFukcasIrc8wRp71Q126QLIgkW/cdfYw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -607,4 +609,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_162362eb-3e0d-4033-985e-d7b1ecc36838" Target="#_e01a95f2-da2b-4637-8ce5-4825b1f07cd1"><Timestamp>2021-04-08 11:27:21</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_960a9004-3b6b-4bcc-809f-de85afe1f3ee" Target="#_75766014-321b-4be4-9590-7f6d0b81170b"><Timestamp>2021-04-08 11:28:14</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
