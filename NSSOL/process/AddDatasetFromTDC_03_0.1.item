@@ -2,7 +2,7 @@
   <context confirmationNeeded="false" name="Prod">
     <contextParameter comment="" name="projectName" prompt="projectName?" promptNeeded="false" repositoryContextId="_ynvE8JdXEeutHeP0AiBlNw" type="id_String" value="tanakaproject"/>
     <contextParameter comment="" name="tcToken" prompt="tcToken?" promptNeeded="false" repositoryContextId="_ynvE8JdXEeutHeP0AiBlNw" type="id_String" value=""/>
-    <contextParameter comment="TDCのパスワード" name="tdcPassword" prompt="tdcPassword?" promptNeeded="false" repositoryContextId="_ynvE8JdXEeutHeP0AiBlNw" type="id_Password" value="enc:system.encryption.key.v1:GFq6j0g8RnWex4gjy9oUKG3rRzrPzf3nsW2VRj46UKEeGNwL9uAKv2I="/>
+    <contextParameter comment="TDCのパスワード" name="tdcPassword" prompt="tdcPassword?" promptNeeded="false" repositoryContextId="_ynvE8JdXEeutHeP0AiBlNw" type="id_Password" value="enc:system.encryption.key.v1:cxXIQVL8i4nFD7MSWHnrrzLe+8nGurbs6zDKHDn/POfzMDW43V2YCmU="/>
     <contextParameter comment="" name="tdcRootObjectId" prompt="tdcRootObjectId?" promptNeeded="false" repositoryContextId="_ynvE8JdXEeutHeP0AiBlNw" type="id_String" value=""/>
     <contextParameter comment="" name="tdcTargetObjectPath" prompt="tdcTargetObjectPath?" promptNeeded="false" repositoryContextId="_ynvE8JdXEeutHeP0AiBlNw" type="id_String" value=""/>
     <contextParameter comment="取得対象とするモデルのオブジェクトID" name="tdcTargetSchema" prompt="tdcTargetSchema?" promptNeeded="false" repositoryContextId="_ynvE8JdXEeutHeP0AiBlNw" type="id_String" value="AAAABwAAU_vKkUQy1RIpheNjpvMyZJ8YrA"/>
@@ -16,7 +16,7 @@
   <context confirmationNeeded="false" name="Dev">
     <contextParameter comment="" name="projectName" prompt="projectName?" promptNeeded="false" repositoryContextId="_ynvE8JdXEeutHeP0AiBlNw" type="id_String" value="tanakaproject"/>
     <contextParameter comment="" name="tcToken" prompt="tcToken?" promptNeeded="false" repositoryContextId="_ynvE8JdXEeutHeP0AiBlNw" type="id_String" value="pHjoIJwGQj6xTiSvnIhzwoUm2KW6ItBLgSEt9_c7lAZ0k9mWXClVuqJOPVAqmog8"/>
-    <contextParameter comment="TDCのパスワード" name="tdcPassword" prompt="tdcPassword?" promptNeeded="false" repositoryContextId="_ynvE8JdXEeutHeP0AiBlNw" type="id_Password" value="enc:system.encryption.key.v1:11w/vCJDwvDmi/ApFoNBD6vNbWyKmYGYIBx8sGJ/qXrRj+cg159mpIQ="/>
+    <contextParameter comment="TDCのパスワード" name="tdcPassword" prompt="tdcPassword?" promptNeeded="false" repositoryContextId="_ynvE8JdXEeutHeP0AiBlNw" type="id_Password" value="enc:system.encryption.key.v1:o8G9unmiueEFjYUw5CztdBr//mocCUiJ524H19BbcH0n9/irx4dt3VQ="/>
     <contextParameter comment="" name="tdcRootObjectId" prompt="tdcRootObjectId?" promptNeeded="false" repositoryContextId="_ynvE8JdXEeutHeP0AiBlNw" type="id_String" value="AAAhiAAAU_vKkUQy1RIpheNjpvMyZJ8YrA"/>
     <contextParameter comment="" name="tdcTargetObjectPath" prompt="tdcTargetObjectPath?" promptNeeded="false" repositoryContextId="_ynvE8JdXEeutHeP0AiBlNw" type="id_String" value="MySQL(関東)/bs202004/dimension"/>
     <contextParameter comment="取得対象とするモデルのオブジェクトID" name="tdcTargetSchema" prompt="tdcTargetSchema?" promptNeeded="false" repositoryContextId="_ynvE8JdXEeutHeP0AiBlNw" type="id_String" value="AAAABwAAU_vKkUQy1RIpheNjpvMyZJ8YrA"/>
@@ -71,7 +71,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:xqrob5NHbUYqWl542kNqURrqemqk+KCuWxDXnth7"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:LOjWacq21LB2sX/P1hJnuPcwpXa01fx5Xzk0jUUZ"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -106,7 +106,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:n3hH+e7oxoLDIz1+78yBZoYCYno2XqigVedhg3C2"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:5BKvlm76No4QalaQ9tyE0tx5cu/56PwuCQmwKzRm"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -156,7 +156,7 @@
     <elementParameter field="CHECK" name="NEED_AUTH" value="true"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" value="OAUTH2_BEARER"/>
     <elementParameter field="TEXT" name="AUTH_USERNAME" show="false" value="&quot;tanakatanaka2@digdig.org&quot;"/>
-    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" show="false" value="enc:system.encryption.key.v1:oQygklipa0iw07nHx1xEK2k/PUQhrbz0cAGneIZ5LDs+SkbrlXp/"/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" show="false" value="enc:system.encryption.key.v1:ykg6T7tycqwuJKDzIvsB1TOKQ8im21wPci7X7erijFuMdOq1ARlO"/>
     <elementParameter field="TEXT" name="AUTH_BEARER_TOKEN" value="&quot;N1Hi0zFKRxie79flQEBmNubF8okwmsQgP1Eyhb93Slz8MKgtRVKQQXXdN0_PZQRP&quot;"/>
     <elementParameter field="CHECK" name="NEED_AUTHORIZATION" show="false" value="false"/>
     <elementParameter field="TEXT" name="ROLE" show="false" value="&quot;&quot;"/>
@@ -184,7 +184,7 @@
     <elementParameter field="TEXT" name="PROXY_HOST" show="false" value="&quot;61.163.92.4&quot;"/>
     <elementParameter field="TEXT" name="PROXY_PORT" show="false" value="8080"/>
     <elementParameter field="TEXT" name="PROXY_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:1EA79fQ/ykkUQnQ0MGC8ccbCnyzwCwpu+R6k6rma"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:+LmDM+uuU8P3tVYPStfgQJGFb+vde7XnWkGglfsL"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tRESTClient_1">
       <column defaultValue="" key="false" length="0" name="body" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Document" usefulColumn="true"/>
@@ -310,7 +310,7 @@
   </node>
   <node componentName="tRESTClient" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRESTClient_2"/>
-    <elementParameter field="TEXT" name="URL" value="&quot;https://api.ap.cloud.talend.com/tmc/v2.3/projects/60abca00-3f37-4639-927f-3456ffd305ca/groups&quot;"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;https://api.ap.cloud.talend.com/tmc/v2.3/projects/&quot;+globalMap.get(&quot;projectId&quot;)+&quot;/groups&quot;"/>
     <elementParameter field="TEXT" name="PATH" value="&quot;&quot;"/>
     <elementParameter field="CLOSED_LIST" name="METHOD" value="GET"/>
     <elementParameter field="CLOSED_LIST" name="CONTENT_TYPE" show="false" value="application/xml"/>
@@ -323,7 +323,7 @@
     <elementParameter field="CHECK" name="NEED_AUTH" value="true"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" value="OAUTH2_BEARER"/>
     <elementParameter field="TEXT" name="AUTH_USERNAME" show="false" value="&quot;tanakatanaka2@digdig.org&quot;"/>
-    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" show="false" value="enc:system.encryption.key.v1:tPxUH1lFSFPYFvEu+lwNUUaHcYHzKQS1cmyffZXW93fxlEJYjnvI"/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" show="false" value="enc:system.encryption.key.v1:M0QY42PF5X3Ndpak9yLO8E6OGP/uJCDZDQi1YKhfonnfs2UUlVLJ"/>
     <elementParameter field="TEXT" name="AUTH_BEARER_TOKEN" value="&quot;N1Hi0zFKRxie79flQEBmNubF8okwmsQgP1Eyhb93Slz8MKgtRVKQQXXdN0_PZQRP&quot;"/>
     <elementParameter field="CHECK" name="NEED_AUTHORIZATION" show="false" value="false"/>
     <elementParameter field="TEXT" name="ROLE" show="false" value="&quot;&quot;"/>
@@ -351,7 +351,7 @@
     <elementParameter field="TEXT" name="PROXY_HOST" show="false" value="&quot;61.163.92.4&quot;"/>
     <elementParameter field="TEXT" name="PROXY_PORT" show="false" value="8080"/>
     <elementParameter field="TEXT" name="PROXY_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:aAI5QFqDDF1etN4+cnXkdZ6Kr2u3kCoO78T/zu/k"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:jbcHt85LqnCklKudnpWrWZMEhQkif5Ofpn2iJOVE"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tRESTClient_2">
       <column defaultValue="" key="false" length="0" name="body" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Document" usefulColumn="true"/>
@@ -478,13 +478,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_2e45a1bc-f33e-4ac3-b982-8a5bf4da1be3"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>3arAPCCd7eChlk9yJy7UYB6kdifPtuSZeh7Uhljfb4YFKYmLBnB1UQQdpTQYlws0+WlY3aOUrccX&#13;
-BnMxy32EAA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_5e36a8d9-3371-43b7-bdbc-10a41d418343"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>8rt5CMNv7Bm+lP6h3b2cE+nDIXRNuup2bigLAoAMSq8OQHd/PKFxn4JM1E2JkvSdqIWBfKmU3fnm&#13;
-EXL5xuD/FQ==</DigestValue></Reference></SignedInfo><SignatureValue>JDXsnDhzweZVN/UVgYE+MvvrBAONnVV8uB8WgvhRkMCSkflHC9lAhI3HdYlVQ6iYrOz6ih6zM9yO&#13;
-aqR5UTwvEXD2nAFoPvM9TdnJFwfDdOghMF+pTnkFQkCAN4x55bBTqO+cZZLZEOHHWuUO4NH8D+sK&#13;
-5O4eIOwQFIQXDWr2093p8DDDe2cYCJgxSWZkY2LxGDRYBvbD63hh7zbPuZyjKRuddPMxgwG2k6n8&#13;
-oPfsurEiUehaIRZVQ6XNhYyR/mVb0zLBN3H4oKVdvV0O1smtlAKWT3ztsrw6jb0bt5dnZVqxfIER&#13;
-OmO6n805llqNCf5NF2i58R+gXKQOeNkshcHAEw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_dd491ae7-65f8-437d-8a78-d317d823f2a4"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Cx94+Y8dS1tINvZmmOnNeugpW+g2ug+35C7J2V1tTcuZdih7I9amkFuPDd4ugoRXVuiIjJW1CBKk&#13;
+pq8MhVUFSQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_6f7f4656-0bea-4b00-986e-b92e2c965c17"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>S5VobVTku1CGJdTpct3VpbGF07yBzy/1B2t91XFrNJd66TdNN0Tx3/e9LDAr6VLAQsEsRbSXcEyI&#13;
+Znkeqaf+XA==</DigestValue></Reference></SignedInfo><SignatureValue>VrY6xRDKrmCQbqDLqG0ocdwMNMP49FRFjQ4huvVMIgOuiKsCtUE5UnDonm1m71pPksF/xJMR6arG&#13;
+0P9xv5Zxon7BIY7wMWvm6MFc03KAgXky5w7bfSaZff7i0ykJqnMk8QIi4HIXDZgZ4hEWgjOvKins&#13;
+Cv/q4HSAp3S5BotmZorUm+Tu5NJF/Hoq+gApMFudwK6iwnye8vsdFep32wiAnwfCsB37H2DwXukP&#13;
+Z4Umngt3iF5RCPXag58eg14PZWVnbShnMS4u6PBh8B9eR1esuOtCIiAr0qPeFrce2sbe9I/fNHkB&#13;
+pBEqlJOJndzb30P0U0ITwlE74Q/QeFhmgFW+kA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -506,4 +506,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_5e36a8d9-3371-43b7-bdbc-10a41d418343" Target="#_2e45a1bc-f33e-4ac3-b982-8a5bf4da1be3"><Timestamp>2021-04-08 11:14:18</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_6f7f4656-0bea-4b00-986e-b92e2c965c17" Target="#_dd491ae7-65f8-437d-8a78-d317d823f2a4"><Timestamp>2021-04-08 11:18:06</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
