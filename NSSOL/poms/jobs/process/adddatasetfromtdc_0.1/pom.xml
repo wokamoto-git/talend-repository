@@ -214,6 +214,11 @@
       <version>6.0.0</version>
     </dependency>
     <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>json-path-2.1.0</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
       <groupId>net.minidev</groupId>
       <artifactId>json-smart</artifactId>
       <version>2.2.1</version>
