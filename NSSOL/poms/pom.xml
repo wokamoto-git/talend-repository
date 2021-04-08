@@ -13,6 +13,8 @@
     <module>jobs/process/restclient_test_0.1</module>
     <module>jobs/process/adddatasetfromtdc_02_0.1</module>
     <module>jobs/process/adddatasetfromtdc_01_0.1</module>
+    <module>jobs/joblets/commoncloudlog_0.1</module>
+    <module>jobs/process/Utility/registertdpurltotdc_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
