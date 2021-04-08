@@ -44,7 +44,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:O4jk6FWPnMII3JBW4xhWUIpVbsWgjc4gPpn/S2aC"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:mKDDNtnQRJ2PyrCDBGRrml2l7pneMBRUV3M1lcg3"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -79,7 +79,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:6pImSFwe8Vx6Ythc9KRi23lmfu+k8zbTLx6/K/xw"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:Jiv184WRPX1WMosNzBkB51KgLU8rUsFYFMx7ewfz"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -129,7 +129,7 @@
     <elementParameter field="CHECK" name="NEED_AUTH" value="false"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" show="false" value="BASIC"/>
     <elementParameter field="TEXT" name="AUTH_USERNAME" show="false" value="&quot;username&quot;"/>
-    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" show="false" value="enc:system.encryption.key.v1:dfob94jxhwv0dlFNbU/6LYH8sTLsqXbzsKKeAEVzH7goIWTi7OM="/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" show="false" value="enc:system.encryption.key.v1:wZS6s23VaFQy7HJLYRz7X7cElO5r9zVGSyJKNH6kxVVXFVK4mlA="/>
     <elementParameter field="TEXT" name="AUTH_BEARER_TOKEN" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="NEED_AUTHORIZATION" show="false" value="false"/>
     <elementParameter field="TEXT" name="ROLE" show="false" value="&quot;&quot;"/>
@@ -157,7 +157,7 @@
     <elementParameter field="TEXT" name="PROXY_HOST" show="false" value="&quot;61.163.92.4&quot;"/>
     <elementParameter field="TEXT" name="PROXY_PORT" show="false" value="8080"/>
     <elementParameter field="TEXT" name="PROXY_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:dN49g4QvgTZecYnehe3FuPDhDjRe4y30Lpag3i4+"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:YNE4NMzxtPqN6UkcDwjSGDtTh1BERxvJYDYZXMKW"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tRESTClient_1">
       <column defaultValue="" key="false" length="0" name="body" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Document" usefulColumn="true"/>
@@ -211,31 +211,25 @@
     <elementParameter field="TEXT" name="LOOP_QUERY" value="&quot;/Resources/&quot;"/>
     <elementParameter field="TEXT" name="JSON_LOOP_QUERY" show="false" value="&quot;/Resources/&quot;"/>
     <elementParameter field="TABLE" name="MAPPING">
-      <elementValue elementRef="SCHEMA_COLUMN" value="Resources"/>
-      <elementValue elementRef="QUERY" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="statusCode"/>
+      <elementValue elementRef="QUERY" value="&quot;id&quot;"/>
       <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="ISARRAY" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="id"/>
-      <elementValue elementRef="QUERY" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="body"/>
+      <elementValue elementRef="QUERY" value="&quot;displayName&quot;"/>
       <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="ISARRAY" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="displayName"/>
-      <elementValue elementRef="QUERY" value=""/>
-      <elementValue elementRef="NODECHECK" value="false"/>
-      <elementValue elementRef="ISARRAY" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="talendId"/>
-      <elementValue elementRef="QUERY" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="string"/>
+      <elementValue elementRef="QUERY" value="&quot;&quot;"/>
       <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="ISARRAY" value="false"/>
     </elementParameter>
     <elementParameter field="TABLE" name="MAPPING_4_JSONPATH" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="Resources"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="statusCode"/>
       <elementValue elementRef="QUERY" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="id"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="body"/>
       <elementValue elementRef="QUERY" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="displayName"/>
-      <elementValue elementRef="QUERY" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="talendId"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="string"/>
       <elementValue elementRef="QUERY" value=""/>
     </elementParameter>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
@@ -247,16 +241,14 @@
     <elementParameter field="CHECK" name="SPLIT_LIST" show="false" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tExtractJSONFields_1">
-      <column comment="" key="false" length="-1" name="Resources" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="id" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="displayName" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="talendId" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="0" name="statusCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column key="false" length="0" name="body" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Document" usefulColumn="true"/>
+      <column key="false" length="4048" name="string" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" name="REJECT">
-      <column comment="" key="false" length="-1" name="Resources" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="id" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="displayName" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="talendId" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="0" name="statusCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column key="false" length="0" name="body" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Document" usefulColumn="true"/>
+      <column key="false" length="4048" name="string" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorJSONField" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
@@ -276,23 +268,20 @@
     <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false"/>
     <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false"/>
     <elementParameter field="TABLE" name="LENGTHS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="Resources"/>
-      <elementValue elementRef="LENGTH" value="10"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="id"/>
       <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="displayName"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="displatName"/>
       <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="talendId"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="tenantID"/>
       <elementValue elementRef="LENGTH" value="10"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tLogRow_2">
-      <column comment="" key="false" length="-1" name="Resources" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="id" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="displayName" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="talendId" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="id" nullable="true" originalLength="-1" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="displatName" nullable="true" originalLength="-1" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="-1" name="tenantID" nullable="true" originalLength="-1" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
   <connection connectorName="RESPONSE" label="row1" lineStyle="0" metaname="RESPONSE" offsetLabelX="0" offsetLabelY="0" source="tRESTClient_1" target="tLogRow_1">
@@ -312,13 +301,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_9eea6966-c56e-4c79-852e-079388d14abe"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>gXC9Qvt8OM+guIV+5UysigFfL0UudQXUEdoIXPh06uXjxX1fl9SWIgdVRbUhB2TAhIUaWVPIH3Nl&#13;
-nF72f1CEhA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_445323fa-8430-40e2-9212-0e11cd4ac801"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>gR6WC2r0h4tC1zryqQib8+gUUgXJQA3RZVfRzOSouxhi8kzQtyYGxY83s36fLoHc5nlT+t3Cath6&#13;
-+iLLCwpywg==</DigestValue></Reference></SignedInfo><SignatureValue>M5fWgrSQQNUgpBsRElKip1kJAE6ZVNK1N7ZjOtO29NLnDZUFZNUen3tvpRNUIYRVk4BE1NkWnpIm&#13;
-4NrjQvNQjGqsV5dIGDyrsnxJISLv4JhPz796QQ/wWcPuRAhGgpzcsImEOAKukqNDrP35INI6gDkK&#13;
-XqH1H3+dk6v0lJDtHzfv1iaPY6SoJOo9KtddU3dg/L9OVsEOGlyZAXqQohdWWxutNg6SrA3McqSU&#13;
-woj2zcsYRFq/d+v2H7zNNGGf+Yzy+WbLxa1DHL2XGZA8u3kgpqE+YeYJo3efezUW78msdnauW7K6&#13;
-9OCvJiZgdZyE6a29/Dvukdh1p8wPp0fMHLOl3w==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_bb06c61b-2482-4280-a381-2f4b46f81e31"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>U6UoP+bB+EiV/dnON1lFNmPd0zpEKUqvsHPXMVxtVEt7X/lrQl/ioOMhJleFlXWdBEWaq4VFgZa9&#13;
+PsatJzx+ZA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_c65ac7e9-c1c1-4add-b1b4-a1fc9e4cda02"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>pNRkWDtTiNubOQ8RBfpgzPawS7u0VkanfFZr8XJnnMFT8EYWi7cc/WQwfb0ns4Fo1R1PVYIiUuJ6&#13;
+RQvCNKv1iQ==</DigestValue></Reference></SignedInfo><SignatureValue>AmWeHefkYNq5L6Zl/9NKaP18/FKkM11NfANGV/V1qhH2CYiXhVuB7bFrc7OwPev49zu5muTA7Pe7&#13;
+MjppT2tEEMLLzu4wBvcgarfLCeeZJxFdHrOpRGRtxhHLXH4GQHxX0Ug1NcoiVMIrEdgXG+DdamdL&#13;
+GAuGhgqyVxrCZKPTkMURwpuNQK81T9aU94E9Q0D2r3B/kl7PhC6VKmQbJJy3uwuY5dFV1EgM/PeG&#13;
+D5expdDNgl8QO4nWtWgAf03k4md0bhPMy3SK4q5NaK786WCUZlGcYescqBKus+TrG8/66KvFZvaW&#13;
+EKAGKSnFGZuqtFkkrU+HbPBF8tAs0XQZA6F8Sw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -340,4 +329,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_445323fa-8430-40e2-9212-0e11cd4ac801" Target="#_9eea6966-c56e-4c79-852e-079388d14abe"><Timestamp>2021-04-08 00:59:13</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_c65ac7e9-c1c1-4add-b1b4-a1fc9e4cda02" Target="#_bb06c61b-2482-4280-a381-2f4b46f81e31"><Timestamp>2021-04-08 01:01:56</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
