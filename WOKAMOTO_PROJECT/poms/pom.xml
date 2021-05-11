@@ -15,6 +15,7 @@
     <module>jobs/routes/test_route_crest01_0.1</module>
     <module>jobs/process/test_job01_0.1</module>
     <module>jobs/process/Misumi/No10_LogLevel/loglevel_info01_0.1</module>
+    <module>jobs/process/Misumi/No10_LogLevel/loglevel_trace01_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
