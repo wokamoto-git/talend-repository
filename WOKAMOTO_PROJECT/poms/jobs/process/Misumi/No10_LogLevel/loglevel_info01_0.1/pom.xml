@@ -9,9 +9,9 @@
     <relativePath>../../../../../</relativePath>
   </parent>
   <groupId>org.example.wokamoto_project.job</groupId>
-  <artifactId>LogLevel01</artifactId>
+  <artifactId>LogLevel_Info01</artifactId>
   <version>0.1.1</version>
-  <name>WOKAMOTO_PROJECT LogLevel01-0.1.1 (0.1,ジョブ)</name>
+  <name>WOKAMOTO_PROJECT LogLevel_Info01-0.1.1 (0.1,ジョブ)</name>
   <properties>
     <output.resources.dir>${talend.job.name}/src/main/resources</output.resources.dir>
     <talend.job.applyContextToChildren>false</talend.job.applyContextToChildren>
@@ -24,7 +24,7 @@
     <maven.build.timestamp.format>yyyy-MM-dd HHmmssSSS</maven.build.timestamp.format>
     <talend.project.name>WOKAMOTO_PROJECT</talend.project.name>
     <talend.product.version>7.3.1.20200219_1130</talend.product.version>
-    <talend.job.finalName>loglevel01_0_1</talend.job.finalName>
+    <talend.job.finalName>loglevel_info01_0_1</talend.job.finalName>
     <talend.pigudf.groupid>org.example.wokamoto_project.pigudf</talend.pigudf.groupid>
     <talend.routine.groupid>org.example.wokamoto_project.code</talend.routine.groupid>
     <current.bundle.resources.dir>${basedir}/src/main/bundle-resources</current.bundle.resources.dir>
@@ -33,7 +33,7 @@
     <talend.job.context>Default</talend.job.context>
     <talend.job.date>${maven.build.timestamp}</talend.job.date>
     <current.resources.dir>${basedir}/src/main/ext-resources</current.resources.dir>
-    <talend.job.name>LogLevel01</talend.job.name>
+    <talend.job.name>LogLevel_Info01</talend.job.name>
     <talend.job.id>_CiGj0LIbEeuWb7XiaevDLw</talend.job.id>
     <talend.project.id>0</talend.project.id>
     <talend.job.folder>misumi/no10_loglevel/</talend.job.folder>
