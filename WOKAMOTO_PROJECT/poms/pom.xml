@@ -14,6 +14,7 @@
     <module>jobs/process/Misumi/PostgreSQL_CDC/postgresql_route01_0.1</module>
     <module>jobs/routes/test_route_crest01_0.1</module>
     <module>jobs/process/Misumi/No10_LogLevel/loglevel01_0.1</module>
+    <module>jobs/process/test_job01_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
