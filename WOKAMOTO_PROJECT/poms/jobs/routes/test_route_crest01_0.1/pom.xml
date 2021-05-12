@@ -374,7 +374,7 @@
     <dependency>
       <groupId>org.example.wokamoto_project.job</groupId>
       <artifactId>PostGreSQL_Route01</artifactId>
-      <version>0.1.0</version>
+      <version>0.1.1</version>
     </dependency>
   </dependencies>
   <build />
