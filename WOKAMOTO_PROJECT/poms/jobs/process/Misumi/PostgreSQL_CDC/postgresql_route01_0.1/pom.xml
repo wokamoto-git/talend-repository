@@ -11,35 +11,46 @@
   <groupId>org.example.wokamoto_project.job</groupId>
   <artifactId>PostGreSQL_Route01</artifactId>
   <version>0.1.2</version>
-  <name>WOKAMOTO_PROJECT PostGreSQL_Route01-0.1.2 (0.1,ジョブ)</name>
+  <packaging>bundle</packaging>
+  <name>WOKAMOTO_PROJECT PostGreSQL_Route01-${project.version} (0.1,ジョブ) Bundle</name>
   <properties>
-    <output.resources.dir>${talend.job.name}/src/main/resources</output.resources.dir>
-    <talend.job.applyContextToChildren>false</talend.job.applyContextToChildren>
-    <current.test.resources.dir>${basedir}/src/test/resources</current.test.resources.dir>
-    <current.int-resources.dir>${basedir}/src/main/resources</current.int-resources.dir>
-    <talend.job.version>0.1</talend.job.version>
-    <talend.project.name.lowercase>wokamoto_project</talend.project.name.lowercase>
-    <talend.job.path>wokamoto_project</talend.job.path>
-    <project.distribution-management.repository.id>${project.distributionManagement.repository.id}</project.distribution-management.repository.id>
-    <maven.build.timestamp.format>yyyy-MM-dd HHmmssSSS</maven.build.timestamp.format>
-    <talend.project.name>WOKAMOTO_PROJECT</talend.project.name>
-    <talend.product.version>7.3.1.20200219_1130</talend.product.version>
-    <talend.job.finalName>postgresql_route01_0_1</talend.job.finalName>
-    <talend.pigudf.groupid>org.example.wokamoto_project.pigudf</talend.pigudf.groupid>
-    <talend.routine.groupid>org.example.wokamoto_project.code</talend.routine.groupid>
-    <current.bundle.resources.dir>${basedir}/src/main/bundle-resources</current.bundle.resources.dir>
-    <talend.job.jvmargs>-Xms256M -Xmx1024M -Dfile.encoding=UTF-8 </talend.job.jvmargs>
-    <talend.job.stat>true</talend.job.stat>
-    <talend.job.context>Default</talend.job.context>
-    <talend.job.date>${maven.build.timestamp}</talend.job.date>
-    <current.resources.dir>${basedir}/src/main/ext-resources</current.resources.dir>
+    <item.name>@ItemName@</item.name>
+    <bundle.config.export.service>@BundleConfigExportService@</bundle.config.export.service>
+    <bundle.config.bundle.classpath>@BundleConfigBundleClasspath@</bundle.config.bundle.classpath>
     <talend.job.name>PostGreSQL_Route01</talend.job.name>
-    <talend.job.id>_xkinQK58EeuHhs7uwaciNw</talend.job.id>
+    <current.test.resources.dir>${basedir}/src/test/resources</current.test.resources.dir>
+    <current.resources.dir>${basedir}/src/main/ext-resources</current.resources.dir>
+    <docker.skip>true</docker.skip>
+    <talend.project.name>WOKAMOTO_PROJECT</talend.project.name>
+    <maven.build.timestamp.format>yyyy-MM-dd HHmmssSSS</maven.build.timestamp.format>
+    <bundle.config.export.package>@BundleConfigExportPackage@</bundle.config.export.package>
     <talend.project.id>0</talend.project.id>
+    <provided.lib.path>${current.bundle.resources.dir}/provided-lib</provided.lib.path>
+    <current.int-resources.dir>${basedir}/src/main/resources</current.int-resources.dir>
+    <talend.job.applyContextToChildren>false</talend.job.applyContextToChildren>
+    <talend.product.version>7.3.1.20200219_1130</talend.product.version>
+    <output.resources.dir>${talend.job.name}/src/main/resources</output.resources.dir>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <current.bundle.resources.dir>${basedir}/src/main/bundle-resources</current.bundle.resources.dir>
+    <talend.routine.groupid>org.example.wokamoto_project.code</talend.routine.groupid>
     <talend.job.folder>misumi/postgresql_cdc/</talend.job.folder>
-    <talend.job.framework></talend.job.framework>
+    <bundle.config.import.package>@BundleConfigImportPackage@</bundle.config.import.package>
+    <talend.job.id>_xkinQK58EeuHhs7uwaciNw</talend.job.id>
+    <talend.project.name.lowercase>wokamoto_project</talend.project.name.lowercase>
+    <talend.job.finalName>${talend.job.name}-bundle-${project.version}</talend.job.finalName>
+    <lib.path>${resources.path}/lib</lib.path>
+    <project.distribution-management.repository.id>${project.distributionManagement.repository.id}</project.distribution-management.repository.id>
+    <talend.job.version>0.1</talend.job.version>
     <project.distribution-management.repository.url>${project.distributionManagement.repository.url}</project.distribution-management.repository.url>
+    <talend.job.path>wokamoto_project</talend.job.path>
+    <talend.job.context>Default</talend.job.context>
+    <talend.job.stat>true</talend.job.stat>
+    <talend.pigudf.groupid>org.example.wokamoto_project.pigudf</talend.pigudf.groupid>
+    <talend.job.framework></talend.job.framework>
+    <talend.job.jvmargs>-Xms256M -Xmx1024M -Dfile.encoding=UTF-8 </talend.job.jvmargs>
     <talend.job.type>Standard</talend.job.type>
+    <item.project.name>@ItemProjectName@</item.project.name>
+    <resources.path>${basedir}/src/main/resources</resources.path>
   </properties>
   <dependencies>
     <dependency>
@@ -155,7 +166,58 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>${talend.job.finalName}</finalName>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.felix</groupId>
+        <artifactId>maven-bundle-plugin</artifactId>
+        <version>2.5.3</version>
+        <extensions>true</extensions>
+        <dependencies>
+          <dependency>
+            <groupId>org.codehaus.plexus</groupId>
+            <artifactId>plexus-utils</artifactId>
+            <version>3.0.24</version>
+          </dependency>
+        </dependencies>
+        <configuration>
+          <archive>
+            <addMavenDescriptor>false</addMavenDescriptor>
+          </archive>
+          <instructions>
+            <Bundle-SymbolicName>${project.groupId}.${project.artifactId}</Bundle-SymbolicName>
+            <Bundle-Name>${talend.job.name}</Bundle-Name>
+            <Bundle-Version>${project.version}</Bundle-Version>
+            <Export-Package>${bundle.config.export.package}</Export-Package>
+            <Export-Service>${bundle.config.export.service}</Export-Service>
+            <Import-Package>${bundle.config.import.package}, *;resolution:=optional</Import-Package>
+            <Bundle-ClassPath>., {maven-dependencies}</Bundle-ClassPath>
+          </instructions>
+          <finalName>${talend.job.finalName}</finalName>
+        </configuration>
+      </plugin>
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>single</goal>
+            </goals>
+            <configuration>
+              <descriptors>
+                <descriptor>${basedir}/src/main/assemblies/assembly.xml</descriptor>
+              </descriptors>
+              <tarLongFileMode>gnu</tarLongFileMode>
+              <appendAssemblyId>false</appendAssemblyId>
+              <finalName>${talend.job.name}-bundle-${project.version}</finalName>
+              <archive>
+                <manifestFile>${current.bundle.resources.dir}/META-INF/MANIFEST.MF</manifestFile>
+              </archive>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
   </build>
   <profiles>
     <profile>
@@ -179,32 +241,11 @@
                   </descriptors>
                   <tarLongFileMode>gnu</tarLongFileMode>
                   <appendAssemblyId>false</appendAssemblyId>
-                  <finalName>${talend.job.finalName}</finalName>
+                  <finalName>${talend.job.name}-bundle-${project.version}</finalName>
+                  <archive>
+                    <manifestFile>${current.bundle.resources.dir}/META-INF/MANIFEST.MF</manifestFile>
+                  </archive>
                 </configuration>
-              </execution>
-            </executions>
-          </plugin>
-        </plugins>
-      </build>
-    </profile>
-    <profile>
-      <id>signature</id>
-      <activation>
-        <activeByDefault>true</activeByDefault>
-      </activation>
-      <build>
-        <plugins>
-          <plugin>
-            <groupId>org.talend.ci</groupId>
-            <artifactId>signer-maven-plugin</artifactId>
-            <version>${signer.version}</version>
-            <executions>
-              <execution>
-                <id>sign</id>
-                <phase>package</phase>
-                <goals>
-                  <goal>sign</goal>
-                </goals>
               </execution>
             </executions>
           </plugin>
@@ -237,15 +278,9 @@
         <activeByDefault>true</activeByDefault>
       </activation>
       <properties>
-        <assemblies.dir>${basedir}/src/main/assemblies/</assemblies.dir>
-        <pigudfpom.dir>${parentpom.dir}code/pigudf/</pigudfpom.dir>
-        <routinescode.dir>${parentpom.dir}code/routines/src/main/</routinescode.dir>
-        <parentpom.dir>${project.parent.relativePath}</parentpom.dir>
         <templates.dir>${basedir}/src/main/templates/</templates.dir>
-        <routinespom.dir>${parentpom.dir}code/routines/</routinespom.dir>
-        <pigudfcode.dir>${parentpom.dir}code/pigudf/src/main/</pigudfcode.dir>
-        <joblet.dir>${parentpom.dir}jobs/</joblet.dir>
         <poms.dir>${basedir}</poms.dir>
+        <assemblies.dir>${basedir}/src/main/assemblies/</assemblies.dir>
       </properties>
     </profile>
     <profile>
@@ -357,8 +392,37 @@
     <profile>
       <id>include-microservice-running-configs</id>
       <properties>
-        <microservice.running.configs.dir>${current.int-resources.dir}/</microservice.running.configs.dir>
+        <microservice.running.configs.dir>${current.resources.dir}/</microservice.running.configs.dir>
       </properties>
+    </profile>
+    <profile>
+      <id>deploy-nexus</id>
+      <activation>
+        <property>
+          <name>altDeploymentRepository</name>
+        </property>
+      </activation>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.talend.ci</groupId>
+            <artifactId>osgihelper-maven-plugin</artifactId>
+            <version>7.3.1</version>
+            <executions>
+              <execution>
+                <id>osgi-helper</id>
+                <phase>generate-sources</phase>
+                <goals>
+                  <goal>generate</goal>
+                </goals>
+                <configuration>
+                  <featuresFile>${current.bundle.resources.dir}/feature.xml</featuresFile>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
     </profile>
   </profiles>
 </project>
