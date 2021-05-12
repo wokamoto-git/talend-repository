@@ -10,8 +10,8 @@
   </parent>
   <groupId>org.example.wokamoto_project.job</groupId>
   <artifactId>Test_Job01</artifactId>
-  <version>0.1.1</version>
-  <name>WOKAMOTO_PROJECT Test_Job01-0.1.1 (0.1,ジョブ)</name>
+  <version>0.1.2</version>
+  <name>WOKAMOTO_PROJECT Test_Job01-0.1.2 (0.1,ジョブ)</name>
   <properties>
     <output.resources.dir>${talend.job.name}/src/main/resources</output.resources.dir>
     <talend.job.applyContextToChildren>false</talend.job.applyContextToChildren>
