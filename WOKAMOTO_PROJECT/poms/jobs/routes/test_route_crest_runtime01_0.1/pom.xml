@@ -10,7 +10,7 @@
   </parent>
   <groupId>org.example.wokamoto_project.route</groupId>
   <artifactId>Test_Route_cRest_Runtime01-Kar</artifactId>
-  <version>0.1.3</version>
+  <version>0.1.4</version>
   <packaging>pom</packaging>
   <name>WOKAMOTO_PROJECT Test_Route_cRest_Runtime01-${project.version} (0.1,Routes) Kar</name>
   <modules>
@@ -374,7 +374,7 @@
     <dependency>
       <groupId>org.example.wokamoto_project.job</groupId>
       <artifactId>PostGreSQL_Route01</artifactId>
-      <version>0.1.2</version>
+      <version>0.1.3</version>
     </dependency>
   </dependencies>
   <build />

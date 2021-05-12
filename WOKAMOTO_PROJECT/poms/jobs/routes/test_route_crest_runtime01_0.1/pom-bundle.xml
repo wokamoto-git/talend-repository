@@ -5,12 +5,12 @@
   <parent>
     <groupId>org.example.wokamoto_project.route</groupId>
     <artifactId>Test_Route_cRest_Runtime01-Kar</artifactId>
-    <version>0.1.3</version>
+    <version>0.1.4</version>
     <relativePath>/</relativePath>
   </parent>
   <groupId>org.example.wokamoto_project.route</groupId>
   <artifactId>Test_Route_cRest_Runtime01</artifactId>
-  <version>0.1.3</version>
+  <version>0.1.4</version>
   <name>WOKAMOTO_PROJECT Test_Route_cRest_Runtime01-${project.version} (0.1,Routes) Bundle</name>
   <properties>
     <item.name>@ItemName@</item.name>
@@ -408,7 +408,7 @@
     <dependency>
       <groupId>org.example.wokamoto_project.job</groupId>
       <artifactId>PostGreSQL_Route01</artifactId>
-      <version>0.1.2</version>
+      <version>0.1.3</version>
     </dependency>
   </dependencies>
   <build>
@@ -571,9 +571,6 @@
     </profile>
     <profile>
       <id>include-running-log4j</id>
-      <activation>
-        <activeByDefault>true</activeByDefault>
-      </activation>
       <properties>
         <log4j.running.dir>${current.resources.dir}/</log4j.running.dir>
       </properties>
