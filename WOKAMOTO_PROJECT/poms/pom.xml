@@ -8,17 +8,6 @@
   <packaging>pom</packaging>
   <name>WOKAMOTO_PROJECT Codes Master</name>
   <url>http://www.talend.org/</url>
-  <modules>
-    <module>code/routines</module>
-    <module>code/beans</module>
-    <module>jobs/process/Misumi/PostgreSQL_CDC/postgresql_route01_0.1</module>
-    <module>jobs/routes/test_route_crest01_0.1</module>
-    <module>jobs/process/test_job01_0.1</module>
-    <module>jobs/process/Misumi/No10_LogLevel/loglevel_info01_0.1</module>
-    <module>jobs/process/Misumi/No10_LogLevel/loglevel_trace01_0.1</module>
-    <module>jobs/routes/test_route_crest_runtime01_0.1</module>
-    <module>jobs/process/test_service01_0.1</module>
-  </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
     <talend.project.name>WOKAMOTO_PROJECT</talend.project.name>
