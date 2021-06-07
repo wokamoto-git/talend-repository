@@ -9,7 +9,7 @@ jobs:
             - run:
                 name: Maven Build
                 command: |
-                    MVN_OPTS="-gs settings.xml -fae -Dlicense.path=./license_RealtimeBigData_20210315 -Dgeneration.type=local"
+                    MVN_OPTS="-gs ./circleci/settings.xml -fae -Dlicense.path=./license_RealtimeBigData_20210315 -Dgeneration.type=local"
                     MVN_DEPLOY_OPTS="-DaltDeploymentRepository=snapshots::default::${ARTIFACTORY_URL}/repository/snapshots"
                     # Deploy to Artifactory 
                     mvn ${MVN_OPTS} ${MVN_DEPLOY_OPTS} -f WOKAMOTO_PROJECT/poms/pom.xml deploy -fn -e                    
