@@ -1,23 +1,20 @@
-version: 2.1
-
-# Define the jobs we want to run for this project
+version: 2
 jobs:
-  build:
-    docker:
-      - image: wokamoto_project/test_job01:0.1.2
-    steps:
-      - checkout
-      - run: echo "this is the build job"
-  test:
-    docker:
-      - image: wokamoto_project/test_job01:0.1.2
-    steps:
-      - checkout
-      - run: echo "this is the test job"
-
-# Orchestrate our job run sequence
+    build:
+        docker:
+            - image: maven:3-jdk-8
+        resource_class: medium
+        steps:
+            - checkout
+            - run:
+                name: Maven Build
+                command: |
+                    MVN_OPTS="-gs settings.xml -fae -Dlicense.path=./license_RealtimeBigData_20210315 -Dgeneration.type=local"
+                    MVN_DEPLOY_OPTS="-DaltDeploymentRepository=snapshots::default::${ARTIFACTORY_URL}/repository/snapshots"
+                    # Deploy to Artifactory 
+                    mvn ${MVN_OPTS} ${MVN_DEPLOY_OPTS} -f WOKAMOTO_PROJECT/poms/pom.xml deploy -fn -e                    
 workflows:
-  build_and_test:
-    jobs:
-      - build
-      - test
+    version: 2
+    build:
+        jobs:
+            - build
