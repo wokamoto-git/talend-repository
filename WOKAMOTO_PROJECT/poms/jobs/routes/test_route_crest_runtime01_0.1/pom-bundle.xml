@@ -5,12 +5,12 @@
   <parent>
     <groupId>org.example.wokamoto_project.route</groupId>
     <artifactId>Test_Route_cRest_Runtime01-Kar</artifactId>
-    <version>0.1.4</version>
+    <version>0.1.5-SNAPSHOT</version>
     <relativePath>/</relativePath>
   </parent>
   <groupId>org.example.wokamoto_project.route</groupId>
   <artifactId>Test_Route_cRest_Runtime01</artifactId>
-  <version>0.1.4</version>
+  <version>0.1.5-SNAPSHOT</version>
   <name>WOKAMOTO_PROJECT Test_Route_cRest_Runtime01-${project.version} (0.1,Routes) Bundle</name>
   <properties>
     <item.name>@ItemName@</item.name>
@@ -37,9 +37,9 @@
     <talend.project.name.lowercase>wokamoto_project</talend.project.name.lowercase>
     <talend.job.finalName>${talend.job.name}-${project.version}</talend.job.finalName>
     <lib.path>${resources.path}/lib</lib.path>
-    <project.distribution-management.repository.id>${project.distributionManagement.repository.id}</project.distribution-management.repository.id>
+    <project.distribution-management.repository.id>${project.distributionManagement.snapshotRepository.id}</project.distribution-management.repository.id>
     <talend.job.version>0.1</talend.job.version>
-    <project.distribution-management.repository.url>${project.distributionManagement.repository.url}</project.distribution-management.repository.url>
+    <project.distribution-management.repository.url>${project.distributionManagement.snapshotRepository.url}</project.distribution-management.repository.url>
     <talend.job.path>wokamoto_project</talend.job.path>
     <talend.job.context>Default</talend.job.context>
     <talend.job.stat>true</talend.job.stat>
