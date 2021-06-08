@@ -5,13 +5,13 @@
   <parent>
     <groupId>org.example.wokamoto_project</groupId>
     <artifactId>code.Master</artifactId>
-    <version>7.3.1</version>
+    <version>0.1.5-SNAPSHOT</version>
     <relativePath>../../../../../</relativePath>
   </parent>
   <groupId>org.example.wokamoto_project.job</groupId>
   <artifactId>LogLevel_Trace01</artifactId>
-  <version>0.1.1</version>
-  <name>WOKAMOTO_PROJECT LogLevel_Trace01-0.1.1 (0.1,ジョブ)</name>
+  <version>0.1.5-SNAPSHOT</version>
+  <name>WOKAMOTO_PROJECT LogLevel_Trace01-0.1.5-SNAPSHOT (0.1,ジョブ)</name>
   <properties>
     <output.resources.dir>${talend.job.name}/src/main/resources</output.resources.dir>
     <talend.job.applyContextToChildren>false</talend.job.applyContextToChildren>
@@ -20,7 +20,7 @@
     <talend.job.version>0.1</talend.job.version>
     <talend.project.name.lowercase>wokamoto_project</talend.project.name.lowercase>
     <talend.job.path>wokamoto_project</talend.job.path>
-    <project.distribution-management.repository.id>${project.distributionManagement.repository.id}</project.distribution-management.repository.id>
+    <project.distribution-management.repository.id>${project.distributionManagement.snapshotRepository.id}</project.distribution-management.repository.id>
     <maven.build.timestamp.format>yyyy-MM-dd HHmmssSSS</maven.build.timestamp.format>
     <talend.project.name>WOKAMOTO_PROJECT</talend.project.name>
     <talend.product.version>7.3.1.20200219_1130</talend.product.version>
@@ -38,7 +38,7 @@
     <talend.project.id>0</talend.project.id>
     <talend.job.folder>misumi/no10_loglevel/</talend.job.folder>
     <talend.job.framework></talend.job.framework>
-    <project.distribution-management.repository.url>${project.distributionManagement.repository.url}</project.distribution-management.repository.url>
+    <project.distribution-management.repository.url>${project.distributionManagement.snapshotRepository.url}</project.distribution-management.repository.url>
     <talend.job.type>Standard</talend.job.type>
   </properties>
   <dependencies>
@@ -135,7 +135,7 @@
     <dependency>
       <groupId>org.example.wokamoto_project.code</groupId>
       <artifactId>routines</artifactId>
-      <version>7.3.1</version>
+      <version>0.1.5-SNAPSHOT</version>
     </dependency>
   </dependencies>
   <build>

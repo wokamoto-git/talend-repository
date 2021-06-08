@@ -398,17 +398,17 @@
     <dependency>
       <groupId>org.example.wokamoto_project.code</groupId>
       <artifactId>routines</artifactId>
-      <version>7.3.1</version>
+      <version>0.1.5-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>org.example.wokamoto_project.bean</groupId>
       <artifactId>beans</artifactId>
-      <version>7.3.1</version>
+      <version>0.1.5-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>org.example.wokamoto_project.job</groupId>
       <artifactId>PostGreSQL_Route01</artifactId>
-      <version>0.1.3</version>
+      <version>0.1.5-SNAPSHOT</version>
     </dependency>
   </dependencies>
   <build>
