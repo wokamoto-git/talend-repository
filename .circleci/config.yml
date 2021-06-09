@@ -10,7 +10,7 @@ jobs:
                 name: Maven Build
                 command: |
                     MVN_OPTS="-gs .circleci/settings.xml -fae -Dupdatesite.path=${P2_URL} -Dlicense.path=./license_RealtimeBigData_20210315 -Dgeneration.type=local"
-                    mvn ${MVN_OPTS} -f WOKAMOTO_PROJECT/poms/pom.xml deploy -Pdocker -e -pl talend-repository/WOKAMOTO_PROJECT/ -Ddocker.push.registry=wokamotodockerhub/circleci-dockerrepo -Ddocker.push.username=wokamotodockerhub -Ddocker.push.password=Okam12345
+                    mvn ${MVN_OPTS} -f WOKAMOTO_PROJECT/poms/pom.xml deploy -Pdocker -e -Ddocker.push.registry=wokamotodockerhub/circleci-dockerrepo -Ddocker.push.username=wokamotodockerhub -Ddocker.push.password=Okam12345
 workflows:
     version: 2
     build:
