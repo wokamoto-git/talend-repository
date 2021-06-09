@@ -10,7 +10,7 @@ jobs:
                 name: Maven Build
                 command: |
                     MVN_OPTS="-gs .circleci/settings.xml -fae -Dupdatesite.path=${P2_URL} -Dlicense.path=./license_RealtimeBigData_20210315 -Dgeneration.type=local"
-                    mvn ${MVN_OPTS} -f WOKAMOTO_PROJECT/poms/pom.xml deploy -Pdocker -e -pl jobs/process/Test_Job01_0.1,jobs/routes/Test_Service01_0.1           
+                    mvn ${MVN_OPTS} -f WOKAMOTO_PROJECT/poms/pom.xml deploy -Pdocker -e -pl talend-repository/WOKAMOTO_PROJECT
 workflows:
     version: 2
     build:
