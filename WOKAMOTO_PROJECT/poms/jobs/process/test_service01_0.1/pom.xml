@@ -10,7 +10,7 @@
   </parent>
   <groupId>org.example.wokamoto_project.service</groupId>
   <artifactId>Test_Service01</artifactId>
-  <version>0.1.5-SNAPSHOT</version>
+  <version>0.1.6-SNAPSHOT</version>
   <packaging>bundle</packaging>
   <name>WOKAMOTO_PROJECT Test_Service01-${project.version} (0.1,ジョブ) Bundle</name>
   <properties>
