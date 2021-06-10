@@ -5,12 +5,12 @@
   <parent>
     <groupId>org.example.wokamoto_project</groupId>
     <artifactId>code.Master</artifactId>
-    <version>0.1.5-SNAPSHOT</version>
+    <version>0.1.6-SNAPSHOT</version>
     <relativePath>../../</relativePath>
   </parent>
   <groupId>org.example.wokamoto_project.bean</groupId>
   <artifactId>beans</artifactId>
-  <version>0.1.5-SNAPSHOT</version>
+  <version>0.1.6-SNAPSHOT</version>
   <name>WOKAMOTO_PROJECT Beans</name>
   <properties>
     <talend.codes.package>beans</talend.codes.package>
@@ -19,7 +19,7 @@
     <dependency>
       <groupId>org.example.wokamoto_project.code</groupId>
       <artifactId>routines</artifactId>
-      <version>0.1.5-SNAPSHOT</version>
+      <version>0.1.6-SNAPSHOT</version>
     </dependency>
   </dependencies>
   <build>

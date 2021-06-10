@@ -398,12 +398,12 @@
     <dependency>
       <groupId>org.example.wokamoto_project.code</groupId>
       <artifactId>routines</artifactId>
-      <version>0.1.5-SNAPSHOT</version>
+      <version>0.1.6-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>org.example.wokamoto_project.bean</groupId>
       <artifactId>beans</artifactId>
-      <version>0.1.5-SNAPSHOT</version>
+      <version>0.1.6-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>org.example.wokamoto_project.job</groupId>
