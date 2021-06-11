@@ -10,7 +10,7 @@ jobs:
                 name: Maven Build
                 command: |
                     MVN_OPTS="-gs .circleci/settings.xml -fae -Dupdatesite.path=${P2_URL} -Dlicense.path=./license_RealtimeBigData_20210315 -Dgeneration.type=local -Dtalend.job.context=Linux"
-                    mvn ${MVN_OPTS} -f WOKAMOTO_PROJECT/poms/pom.xml build -Pdocker -e
+                    mvn ${MVN_OPTS} -f WOKAMOTO_PROJECT/poms/pom.xml install -Pdocker -e
 workflows:
     version: 2
     build:
