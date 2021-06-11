@@ -10,7 +10,7 @@ jobs:
                 name: Maven Build
                 command: |
                     MVN_OPTS="-gs .circleci/settings.xml -fae -Dupdatesite.path=${P2_URL} -Dlicense.path=./license_RealtimeBigData_20210315 -Dgeneration.type=local -Dtalend.job.context=Linux"
-                    mvn ${MVN_OPTS} -f WOKAMOTO_PROJECT/poms/pom.xml install -Pdocker -e
+                    mvn ${MVN_OPTS} -f WOKAMOTO_PROJECT/poms/pom.xml install -Pdocker -e -Ddocker.push.username=${ARTIFACTORY_USER} -Ddocker.push.password=${ARTIFACTORY_PWD} -Ddocker.push.registry=54.178.116.112:8011
 workflows:
     version: 2
     build:
