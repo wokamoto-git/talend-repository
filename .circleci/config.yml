@@ -6,6 +6,7 @@ jobs:
         resource_class: medium
         steps:
             - checkout
+            - setup_remote_docker
             - run:
                 name: Maven Build
                 command: |
