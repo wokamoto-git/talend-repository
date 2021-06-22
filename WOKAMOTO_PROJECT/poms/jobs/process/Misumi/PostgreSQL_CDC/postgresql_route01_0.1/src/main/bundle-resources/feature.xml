@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="PostGreSQL_Route01-feature">
+<feature name="PostGreSQL_Route01-feature" version="0.1.3">
+<feature>camel-core</feature>
+<bundle>mvn:org.example.wokamoto_project.job/PostGreSQL_Route01/0.1.3</bundle>
+<config name="PostGreSQL_Route01.talendcontext.Default" override="true">
+</config>
+</feature>
+</features>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0">
+
+	<!-- Talend Job OSGi blueprint descriptor -->
+
+
+	<bean id="job" class="wokamoto_project.postgresql_route01_0_1.PostGreSQL_Route01" destroy-method="destroy">
+
+		<property name="dataSources">
+			<map>
+				<entry key="ds-postgresql">
+					<reference interface="javax.sql.DataSource" filter="(osgi.jndi.service.name=ds-postgresql)" />
+				</entry>
+ 			</map>
+		</property>
+	</bean>
+
+	<service ref="job">
+		<interfaces>
+			<value>routines.system.api.TalendJob</value>
+			<value>routines.system.api.TalendESBJob</value>
+			<value>routines.system.api.TalendESBJobFactory</value>
+		</interfaces>
+		<service-properties>
+			<entry key="name" value="wokamoto_project.postgresql_route01_0_1.PostGreSQL_Route01" />
+			<entry key="version" value="0.1.4" />
+			<entry key="type" value="job" />
+			<entry key="multithreading" value="true" />
+		</service-properties>
+	</service>
+
+</blueprint>

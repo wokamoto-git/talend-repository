@@ -1,0 +1,117 @@
+[INFO] Disabling enhanced local repository: using legacy is strongly discouraged to ensure build reproducibility.
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] WOKAMOTO_PROJECT Test_Route_cRest01-0.1.0 (0.1,Routes) Kar         [pom]
+[INFO] WOKAMOTO_PROJECT Test_Route_cRest01-0.1.0 (0.1,Routes) Bundle      [jar]
+[INFO] WOKAMOTO_PROJECT Test_Route_cRest01-0.1.0 (0.1,Routes) Feature     [pom]
+[INFO] 
+[INFO] -----< org.example.wokamoto_project.route:Test_Route_cRest01-Kar >------
+[INFO] Building WOKAMOTO_PROJECT Test_Route_cRest01-0.1.0 (0.1,Routes) Kar 0.1.0 [1/3]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- builder-maven-plugin:7.3.1:generate (default) @ Test_Route_cRest01-Kar ---
+[INFO] Skipping ci-builder
+[INFO] 
+[INFO] -------< org.example.wokamoto_project.route:Test_Route_cRest01 >--------
+[INFO] Building WOKAMOTO_PROJECT Test_Route_cRest01-0.1.0 (0.1,Routes) Bundle 0.1.0 [2/3]
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for org.apache.cxf:cxf-core:jar:3.3.4 is missing, no dependency information available
+[WARNING] The POM for org.apache.cxf:cxf-rt-bindings-soap:jar:3.3.4 is missing, no dependency information available
+[WARNING] The POM for org.apache.cxf:cxf-rt-bindings-xml:jar:3.3.4 is missing, no dependency information available
+[WARNING] The POM for org.apache.cxf:cxf-rt-databinding-jaxb:jar:3.3.4 is missing, no dependency information available
+[WARNING] The POM for org.apache.cxf:cxf-rt-frontend-jaxrs:jar:3.3.4 is missing, no dependency information available
+[WARNING] The POM for org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.3.4 is missing, no dependency information available
+[WARNING] The POM for org.apache.cxf:cxf-rt-frontend-simple:jar:3.3.4 is missing, no dependency information available
+[WARNING] The POM for org.apache.cxf:cxf-rt-rs-client:jar:3.3.4 is missing, no dependency information available
+[WARNING] The POM for org.apache.cxf:cxf-rt-transports-http:jar:3.3.4 is missing, no dependency information available
+[WARNING] The POM for org.apache.cxf:cxf-rt-ws-addr:jar:3.3.4 is missing, no dependency information available
+[WARNING] The POM for org.apache.cxf:cxf-rt-ws-policy:jar:3.3.4 is missing, no dependency information available
+[WARNING] The POM for org.apache.cxf:cxf-rt-wsdl:jar:3.3.4 is missing, no dependency information available
+[WARNING] The POM for org.dom4j:dom4j:jar:2.1.1 is missing, no dependency information available
+[WARNING] The POM for com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.10.1 is missing, no dependency information available
+[WARNING] The POM for com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.10.1 is missing, no dependency information available
+[WARNING] The POM for com.sun.activation:javax.activation:jar:1.2.0 is missing, no dependency information available
+[WARNING] The POM for javax.ws.rs:javax.ws.rs-api:jar:2.1 is missing, no dependency information available
+[WARNING] The POM for org.apache.logging.log4j:log4j-api:jar:2.12.1 is missing, no dependency information available
+[WARNING] The POM for org.apache.logging.log4j:log4j-core:jar:2.12.1 is missing, no dependency information available
+[WARNING] The POM for org.apache.logging.log4j:log4j-slf4j-impl:jar:2.12.1 is missing, no dependency information available
+[WARNING] The POM for org.apache.neethi:neethi:jar:3.1.1 is missing, no dependency information available
+[WARNING] The POM for org.apache.commons:commons-lang3:jar:3.8.1 is missing, no dependency information available
+[INFO] 
+[INFO] --- builder-maven-plugin:7.3.1:generate (default) @ Test_Route_cRest01 ---
+[INFO] Skipping ci-builder
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ Test_Route_cRest01 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ Test_Route_cRest01 ---
+[WARNING] The POM for org.eclipse.platform:org.eclipse.osgi:jar:3.13.300 is missing, no dependency information available
+[WARNING] The POM for org.apache.commons:commons-exec:jar:1.2 is missing, no dependency information available
+[INFO] Not compiling main sources
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ Test_Route_cRest01 ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:testCompile (default-testCompile) @ Test_Route_cRest01 ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.20:test (default-test) @ Test_Route_cRest01 ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ Test_Route_cRest01 ---
+[INFO] Building jar: C:\Users\wokamoto\workspace\.repositories\1778476890\master\WOKAMOTO_PROJECT\poms\jobs\routes\test_route_crest01_0.1\target\Test_Route_cRest01-0.1.0.jar
+[INFO] 
+[INFO] --- maven-assembly-plugin:3.0.0:single (default) @ Test_Route_cRest01 ---
+[INFO] Reading assembly descriptor: C:\Users\wokamoto\workspace\.repositories\1778476890\master\WOKAMOTO_PROJECT\poms\jobs\routes\test_route_crest01_0.1/src/main/assemblies/assembly.xml
+[INFO] Building jar: C:\Users\wokamoto\workspace\.repositories\1778476890\master\WOKAMOTO_PROJECT\poms\jobs\routes\test_route_crest01_0.1\target\Test_Route_cRest01-0.1.0.jar
+[WARNING] Configuration option 'appendAssemblyId' is set to false.
+Instead of attaching the assembly file: C:\Users\wokamoto\workspace\.repositories\1778476890\master\WOKAMOTO_PROJECT\poms\jobs\routes\test_route_crest01_0.1\target\Test_Route_cRest01-0.1.0.jar, it will become the file for main project artifact.
+NOTE: If multiple descriptors or descriptor-formats are provided for this project, the value of this file will be non-deterministic!
+[WARNING] Replacing pre-existing project main-artifact file: C:\Users\wokamoto\workspace\.repositories\1778476890\master\WOKAMOTO_PROJECT\poms\jobs\routes\test_route_crest01_0.1\target\Test_Route_cRest01-0.1.0.jar
+with assembly file: C:\Users\wokamoto\workspace\.repositories\1778476890\master\WOKAMOTO_PROJECT\poms\jobs\routes\test_route_crest01_0.1\target\Test_Route_cRest01-0.1.0.jar
+[INFO] 
+[INFO] ---< org.example.wokamoto_project.route:Test_Route_cRest01-feature >----
+[INFO] Building WOKAMOTO_PROJECT Test_Route_cRest01-0.1.0 (0.1,Routes) Feature 0.1.0 [3/3]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- builder-maven-plugin:7.3.1:generate (default) @ Test_Route_cRest01-feature ---
+[INFO] Skipping ci-builder
+[INFO] 
+[INFO] --- osgihelper-maven-plugin:7.3.1:generate (feature-helper) @ Test_Route_cRest01-feature ---
+[INFO] Resolve mvn:org.example.wokamoto_project.job/Test_Route_cRest01_PostGreSQL_Route01/0.1.1
+[INFO] Installing C:\Talend\Studio\studio\configuration\.m2\repository\org\example\wokamoto_project\job\PostGreSQL_Route01\0.1.1\PostGreSQL_Route01-0.1.1.jar to C:\Talend\Studio\studio\configuration\.m2\repository\org\example\wokamoto_project\job\Test_Route_cRest01_PostGreSQL_Route01\0.1.1\Test_Route_cRest01_PostGreSQL_Route01-0.1.1.jar
+[INFO] Resolve mvn:org.example.wokamoto_project.route/Test_Route_cRest01/0.1.0
+[INFO] 
+[INFO] --- karaf-maven-plugin:4.2.4:kar (create-kar) @ Test_Route_cRest01-feature ---
+[WARNING] The POM for org.codehaus.plexus:plexus-utils:jar:3.0.17 is missing, no dependency information available
+[WARNING] The POM for org.apache.maven.resolver:maven-resolver-api:jar:1.3.1 is missing, no dependency information available
+[WARNING] The POM for org.apache.maven.resolver:maven-resolver-util:jar:1.3.1 is missing, no dependency information available
+[WARNING] The POM for org.apache.maven.resolver:maven-resolver-impl:jar:1.3.1 is missing, no dependency information available
+[WARNING] The POM for org.apache.maven.resolver:maven-resolver-spi:jar:1.3.1 is missing, no dependency information available
+[WARNING] The POM for org.jsoup:jsoup:jar:1.11.2 is missing, no dependency information available
+[WARNING] The POM for org.slf4j:slf4j-api:jar:1.7.12 is missing, no dependency information available
+[WARNING] The POM for org.apache.maven:maven-resolver-provider:jar:3.6.0 is missing, no dependency information available
+[WARNING] The POM for org.apache.maven.shared:maven-shared-utils:jar:0.7 is missing, no dependency information available
+[WARNING] The POM for org.codehaus.plexus:plexus-utils:jar:3.0.20 is missing, no dependency information available
+[WARNING] The POM for org.codehaus.plexus:plexus-interpolation:jar:1.21 is missing, no dependency information available
+[WARNING] The POM for org.codehaus.plexus:plexus-utils:jar:3.0.10 is missing, no dependency information available
+[WARNING] The POM for org.codehaus.plexus:plexus-utils:jar:1.5.7 is missing, no dependency information available
+[WARNING] The POM for org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-20 is missing, no dependency information available
+[WARNING] The POM for commons-collections:commons-collections:jar:3.2.2 is missing, no dependency information available
+[INFO] Building jar: C:\Users\wokamoto\workspace\.repositories\1778476890\master\WOKAMOTO_PROJECT\poms\jobs\routes\test_route_crest01_0.1\target\test_route_crest01_0_1.kar
+[WARNING] Your project should use the "kar" packaging or configure a "classifier" for kar attachment
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] WOKAMOTO_PROJECT Test_Route_cRest01-0.1.0 (0.1,Routes) Kar 0.1.0 SUCCESS [  0.110 s]
+[INFO] WOKAMOTO_PROJECT Test_Route_cRest01-0.1.0 (0.1,Routes) Bundle SUCCESS [  1.042 s]
+[INFO] WOKAMOTO_PROJECT Test_Route_cRest01-0.1.0 (0.1,Routes) Feature 0.1.0 SUCCESS [  0.786 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.027 s
+[INFO] Finished at: 2021-05-12T11:40:23+09:00
+[INFO] ------------------------------------------------------------------------

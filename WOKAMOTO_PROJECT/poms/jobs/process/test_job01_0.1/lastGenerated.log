@@ -1,0 +1,87 @@
+[INFO] Disabling enhanced local repository: using legacy is strongly discouraged to ensure build reproducibility.
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< org.example.wokamoto_project.job:Test_Job01 >-------------
+[INFO] Building WOKAMOTO_PROJECT Test_Job01-0.1.6-SNAPSHOT (0.1,ジョブ) 0.1.6-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- builder-maven-plugin:7.3.1:generate (default) @ Test_Job01 ---
+[INFO] Skipping ci-builder
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ Test_Job01 ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ Test_Job01 ---
+[WARNING] The POM for org.eclipse.platform:org.eclipse.osgi:jar:3.13.300 is missing, no dependency information available
+[WARNING] The POM for org.apache.commons:commons-exec:jar:1.2 is missing, no dependency information available
+[INFO] Not compiling main sources
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ Test_Job01 ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:testCompile (default-testCompile) @ Test_Job01 ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.20:test (default-test) @ Test_Job01 ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ Test_Job01 ---
+[INFO] Building jar: C:\Users\wokamoto\workspace\.repositories\1778476890\master\WOKAMOTO_PROJECT\poms\jobs\process\test_job01_0.1\target\test_job01_0_1.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.1:install (default-install) @ Test_Job01 ---
+[INFO] Installing C:\Users\wokamoto\workspace\.repositories\1778476890\master\WOKAMOTO_PROJECT\poms\jobs\process\test_job01_0.1\target\test_job01_0_1.jar to C:\Talend\Studio\studio\configuration\.m2\repository\org\example\wokamoto_project\job\Test_Job01\0.1.6-SNAPSHOT\Test_Job01-0.1.6-SNAPSHOT.jar
+[INFO] Installing C:\Users\wokamoto\workspace\.repositories\1778476890\master\WOKAMOTO_PROJECT\poms\jobs\process\test_job01_0.1\pom.xml to C:\Talend\Studio\studio\configuration\.m2\repository\org\example\wokamoto_project\job\Test_Job01\0.1.6-SNAPSHOT\Test_Job01-0.1.6-SNAPSHOT.pom
+[INFO] 
+[INFO] --- fabric8-maven-plugin:4.0.0:build (start) @ Test_Job01 ---
+[WARNING] The POM for com.github.jnr:jnr-ffi:jar:2.1.8 is missing, no dependency information available
+[WARNING] The POM for com.github.jnr:jnr-constants:jar:0.9.9 is missing, no dependency information available
+[WARNING] The POM for org.apache.maven.shared:maven-shared-utils:jar:3.2.0 is missing, no dependency information available
+[WARNING] The POM for org.yaml:snakeyaml:jar:1.24 is missing, no dependency information available
+[WARNING] The POM for com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.7.5 is missing, no dependency information available
+[WARNING] The POM for com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.8.7 is missing, no dependency information available
+[WARNING] The POM for com.fasterxml.jackson.core:jackson-databind:jar:2.9.7 is missing, no dependency information available
+[WARNING] The POM for com.fasterxml.jackson.core:jackson-core:jar:2.9.7 is missing, no dependency information available
+[WARNING] The POM for com.fasterxml.jackson.core:jackson-databind:jar:2.3.2 is missing, no dependency information available
+[WARNING] The POM for com.fasterxml.jackson.core:jackson-core:jar:2.3.2 is missing, no dependency information available
+[WARNING] The POM for io.fabric8:docker-maven-plugin:jar:0.28.0 is missing, no dependency information available
+[WARNING] The POM for org.codehaus.plexus:plexus-classworlds:jar:1.2-alpha-7 is missing, no dependency information available
+[WARNING] The POM for junit:junit:jar:4.11 is missing, no dependency information available
+[WARNING] Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+[WARNING] Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+[WARNING] F8: Cannot access cluster for detecting mode: Unknown host kubernetes.default.svc
+[INFO] F8: Running in Kubernetes mode
+[INFO] F8: Building Docker image in Kubernetes mode
+[WARNING] Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+[WARNING] F8: Cannot access cluster for detecting mode: Unknown host kubernetes.default.svc
+[WARNING] Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+[WARNING] F8: Cannot access cluster for detecting mode: Unknown host kubernetes.default.svc
+[WARNING] Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+[WARNING] Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+[WARNING] F8: Cannot access cluster for detecting mode: Unknown host kubernetes.default.svc
+[WARNING] Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+[WARNING] F8: Cannot access cluster for detecting mode: Unknown host kubernetes.default.svc
+[WARNING] Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+[INFO] Reading assembly descriptor: C:\Users\wokamoto\workspace\.repositories\1778476890\master\WOKAMOTO_PROJECT\poms\jobs\process\test_job01_0.1\src\main\assemblies\assembly.xml
+[INFO] Copying files to C:\Users\wokamoto\workspace\.repositories\1778476890\master\WOKAMOTO_PROJECT\poms\jobs\process\test_job01_0.1\target\docker\ghcr.io\wokamoto-git\wokamoto_project\test_job01\build\maven
+[INFO] Building tar: C:\Users\wokamoto\workspace\.repositories\1778476890\master\WOKAMOTO_PROJECT\poms\jobs\process\test_job01_0.1\target\docker\ghcr.io\wokamoto-git\wokamoto_project\test_job01\tmp\docker-build.tar
+[INFO] F8: [ghcr.io/wokamoto-git/wokamoto_project/test_job01:latest]: Created docker-build.tar in 397 milliseconds
+[INFO] F8: [ghcr.io/wokamoto-git/wokamoto_project/test_job01:latest]: Built image sha256:810ec
+[INFO] F8: [ghcr.io/wokamoto-git/wokamoto_project/test_job01:latest]: Removed old image sha256:621fb
+[INFO] F8: [ghcr.io/wokamoto-git/wokamoto_project/test_job01:latest]: Tag with 0.1.6-SNAPSHOT
+[INFO] 
+[INFO] --- maven-deploy-plugin:2.7:deploy (default-deploy) @ Test_Job01 ---
+[INFO] Skipping artifact deployment
+[INFO] 
+[INFO] --- fabric8-maven-plugin:4.0.0:push (push-image) @ Test_Job01 ---
+[INFO] F8> The push refers to repository [ghcr.io/wokamoto-git/wokamoto_project/test_job01]
+[INFO] F8> latest: digest: sha256:45daa3990d1ee615edaeba86c21d2665c679dbb0145b308a7f31d44b88ad97df size: 1991
+[INFO] F8> Pushed ghcr.io/wokamoto-git/wokamoto_project/test_job01 in 5 seconds 
+[INFO] F8> The push refers to repository [ghcr.io/wokamoto-git/wokamoto_project/test_job01]
+[INFO] F8> 0.1.6-SNAPSHOT: digest: sha256:45daa3990d1ee615edaeba86c21d2665c679dbb0145b308a7f31d44b88ad97df size: 1991
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 13.330 s
+[INFO] Finished at: 2021-06-15T15:52:36+09:00
+[INFO] ------------------------------------------------------------------------

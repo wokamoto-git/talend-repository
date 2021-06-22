@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="Test_Route_cRest_Runtime01-feature">
+<feature name="Test_Route_cRest_Runtime01-feature" version="0.1.4">
+<feature>camel-spring</feature>
+<feature>camel-blueprint</feature>
+<feature>camel-core</feature>
+<feature>camel-talendjob</feature>
+<feature>camel-cxf</feature>
+<bundle>mvn:org.example.wokamoto_project.job/Test_Route_cRest_Runtime01_PostGreSQL_Route01/0.1.3</bundle>
+<bundle>mvn:org.example.wokamoto_project.route/Test_Route_cRest_Runtime01/0.1.4</bundle>
+<config name="Test_Route_cRest_Runtime01.talendcontext.Default" override="true">
+</config>
+</feature>
+</features>
