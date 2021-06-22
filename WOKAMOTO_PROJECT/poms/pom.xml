@@ -25,7 +25,7 @@
     <encoding>UTF-8</encoding>
     <talend.docker.tag>${project.version}</talend.docker.tag>
     <maven.deploy.skip>true</maven.deploy.skip>
-    <talend.docker.name>${talend.project.name.lowercase}/${talend.job.folder}%a</talend.docker.name>
+    <talend.docker.name>ghcr.io/wokamoto-git/${talend.project.name.lowercase}/${talend.job.folder}%a</talend.docker.name>
   </properties>
   <build>
     <pluginManagement>

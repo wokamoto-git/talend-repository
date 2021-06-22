@@ -10,7 +10,7 @@ jobs:
                 name: Maven Build
                 command: |
                     MVN_OPTS="-gs .circleci/settings.xml -fae -Dupdatesite.path=${P2_URL} -Dlicense.path=./license_RealtimeBigData_20210315 -Dgeneration.type=local -Dtalend.job.context=Linux"
-                    DOC_OPTS="-Ddocker.push.username=wokamoto-git -Ddocker.push.password=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 -Ddocker.push.registry=http://ghcr.io/wokamoto-git"
+                    DOC_OPTS="-Ddocker.push.username=${DOC_USER} -Ddocker.push.password=${DOC_PASSWORD} -Ddocker.push.registry=http://ghcr.io/wokamoto-git"
                     mvn ${MVN_OPTS} -f WOKAMOTO_PROJECT/poms/pom.xml deploy -Pdocker -e
 workflows:
     version: 2
