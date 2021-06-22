@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2021-06-23T03:36:03.380+0900">
-  <deletedFolders>process/Misumi/No10_LogLevel</deletedFolders>
-  <deletedFolders>process/Misumi/PostgreSQL_CDC</deletedFolders>
-  <deletedFolders>process/Misumi</deletedFolders>
-  <deletedItems id="_CiGj0LIbEeuWb7XiaevDLw" path="Misumi/No10_LogLevel" type="PROCESS"/>
-  <deletedItems id="_kbWWMLIbEeuWb7XiaevDLw" path="Misumi/No10_LogLevel" type="PROCESS"/>
-  <deletedItems id="_xkinQK58EeuHhs7uwaciNw" path="Misumi/PostgreSQL_CDC" type="PROCESS"/>
-</recyclebin:RecycleBin>
