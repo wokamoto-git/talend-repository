@@ -215,7 +215,7 @@
               <autoPull>once</autoPull>
               <images>
                 <image>
-                  <name>ghcr.io/wokamoto-git/${talend.docker.name}</name>
+                  <name>${talend.docker.name}</name>
                   <build>
                     <from>openjdk:8-jre-slim</from>
                     <tags>
