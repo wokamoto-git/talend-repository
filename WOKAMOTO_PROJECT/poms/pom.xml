@@ -9,8 +9,8 @@
   <name>WOKAMOTO_PROJECT Codes Master</name>
   <url>http://www.talend.org/</url>
   <modules>
-    <module>jobs/process/test_service01_0.1</module>
     <module>jobs/process/test_job01_0.1</module>
+    <module>jobs/process/test_service01_0.1</module>
     <module>code/routines</module>
     <module>code/beans</module>
   </modules>
@@ -20,7 +20,7 @@
     <encoding>UTF-8</encoding>
     <maven.deploy.skip>true</maven.deploy.skip>
     <talend.docker.tag>${project.version}</talend.docker.tag>
-    <talend.docker.name>${talend.project.name.lowercase}/${talend.job.folder}%a</talend.docker.name>
+    <talend.docker.name>ghcr.io/wokamoto-git/${talend.project.name.lowercase}/${talend.job.folder}%a</talend.docker.name>
   </properties>
   <build>
     <pluginManagement>
