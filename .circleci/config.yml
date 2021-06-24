@@ -6,6 +6,9 @@ jobs:
         resource_class: medium
         steps:
             - checkout
+            - add_ssh_keys:
+                fingerprints:
+                    - '90:80:80:82:ab:39:4c:de:ac:5c:1a:0b:9b:de:d3:da'
             - run:
                 name: Maven Build
                 command: |
