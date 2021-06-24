@@ -33,6 +33,7 @@
     <talend.job.context>Default</talend.job.context>
     <talend.job.date>${maven.build.timestamp}</talend.job.date>
     <current.resources.dir>${basedir}/src/main/ext-resources</current.resources.dir>
+    <talend.docker.name>ghcr.io/wokamoto-git/${talend.project.name.lowercase}/${talend.job.folder}%a</talend.docker.name>
     <talend.job.name>Test_Job01</talend.job.name>
     <talend.job.id>_E-kd0ISKEeutnvhGNHdVtA</talend.job.id>
     <talend.project.id>0</talend.project.id>
