@@ -5,12 +5,12 @@
   <parent>
     <groupId>org.example.wokamoto_project</groupId>
     <artifactId>code.Master</artifactId>
-    <version>7.3.1</version>
+    <version>0.1.2-SNAPSHOT</version>
     <relativePath>../../</relativePath>
   </parent>
   <groupId>org.example.wokamoto_project.code</groupId>
   <artifactId>routines</artifactId>
-  <version>7.3.1</version>
+  <version>0.1.2-SNAPSHOT</version>
   <name>WOKAMOTO_PROJECT Routines</name>
   <properties>
     <talend.codes.package>routines</talend.codes.package>

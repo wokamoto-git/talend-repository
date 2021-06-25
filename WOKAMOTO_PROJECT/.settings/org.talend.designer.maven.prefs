@@ -1,3 +1,4 @@
 PROJECT_GROUPID=org.example.wokamoto_project
-PROJECT_VERSION=7.3.1
+PROJECT_VERSION=0.1.2
+PUBLISH_AS_SNAPSHOT=true
 eclipse.preferences.version=1

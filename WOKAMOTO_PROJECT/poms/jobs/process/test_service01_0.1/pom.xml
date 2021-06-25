@@ -5,12 +5,12 @@
   <parent>
     <groupId>org.example.wokamoto_project</groupId>
     <artifactId>code.Master</artifactId>
-    <version>7.3.1</version>
+    <version>0.1.2-SNAPSHOT</version>
     <relativePath>../../../</relativePath>
   </parent>
   <groupId>org.example.wokamoto_project.service</groupId>
   <artifactId>Test_Service01</artifactId>
-  <version>0.1.0</version>
+  <version>0.1.2-SNAPSHOT</version>
   <packaging>bundle</packaging>
   <name>WOKAMOTO_PROJECT Test_Service01-${project.version} (0.1,ジョブ) Bundle</name>
   <properties>
@@ -39,9 +39,9 @@
     <talend.project.name.lowercase>wokamoto_project</talend.project.name.lowercase>
     <talend.job.finalName>${talend.job.name}-bundle-${project.version}</talend.job.finalName>
     <lib.path>${resources.path}/lib</lib.path>
-    <project.distribution-management.repository.id>${project.distributionManagement.repository.id}</project.distribution-management.repository.id>
+    <project.distribution-management.repository.id>${project.distributionManagement.snapshotRepository.id}</project.distribution-management.repository.id>
     <talend.job.version>0.1</talend.job.version>
-    <project.distribution-management.repository.url>${project.distributionManagement.repository.url}</project.distribution-management.repository.url>
+    <project.distribution-management.repository.url>${project.distributionManagement.snapshotRepository.url}</project.distribution-management.repository.url>
     <talend.job.path>wokamoto_project</talend.job.path>
     <talend.job.context>Default</talend.job.context>
     <talend.job.stat>true</talend.job.stat>
@@ -587,7 +587,7 @@
     <dependency>
       <groupId>org.example.wokamoto_project.code</groupId>
       <artifactId>routines</artifactId>
-      <version>7.3.1</version>
+      <version>0.1.2-SNAPSHOT</version>
     </dependency>
   </dependencies>
   <build>
