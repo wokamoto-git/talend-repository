@@ -2,10 +2,6 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
                               http://maven.apache.org/xsd/settings-1.0.0.xsd">
 
-    <!-- /!\ Only needs to be defined if you use the local mode to build your artifacts, in that case the value corresponds to the <studio_path>/configuration/.m2/repository folder. 
-	Otherwise, if you use the the -Dupdatesite.path parameter at build time, the M2_HOME variable value will be used -->				
-	<localRepository>/opt/Talend-7.3.1/cmdline/studio/configuration/.m2/repository</localRepository>				
-
     <servers>
 	    <!-- /!\ FOR CLOUD USERS ONLY: credentials to access your Talend Cloud account -->				
 	<!--	<server>			
